@@ -1,0 +1,12 @@
+nav ul li
+{display:block;
+float:left;
+padding:3px 15px;}
+
+nav ul li a
+{font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+transition: all .25s ease;}
+
+nav ul li a:hover
+{color: #E56038;}

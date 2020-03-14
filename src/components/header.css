@@ -1,0 +1,19 @@
+.header
+{
+position:relative;
+width:auto;
+max-width:900px;
+margin: 0 auto 20px auto;
+display : flex;}
+
+.header .titles h1
+{margin: 35px 0 0 0;
+font-size: 55px;
+color: #e56038;
+font-family: 'Baumans', cursive;}
+
+.header .titles p
+{font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+color: #4A463B;
+margin-left:132px;}
