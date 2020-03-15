@@ -3,9 +3,13 @@
 position:relative;
 width:auto;
 max-width:900px;
-margin: 0 auto 20px auto;
+margin: 0 auto 5px auto;
 display : flex;}
 
+.header .titles h1{
+	font-size: 0;
+	font-weight: 0
+}
 .header .titles h1
 {margin: 35px 0 0 0;
 font-size: 55px;
