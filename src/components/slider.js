@@ -1,6 +1,6 @@
 import React from 'react';
 import './slider.css';
-//import Slide1 from './img/slide1.jpg';
+
 
 class Slider extends React.Component {
 	
@@ -9,7 +9,6 @@ class Slider extends React.Component {
 		setInterval(function(){
 			var i;
 		    var x = document.getElementsByClassName("mySlides");
-		    console.log(x);
 		    for (i = 0; i < x.length; i++) {
 		       x[i].style.display = "none";
 		    }
@@ -44,10 +43,8 @@ class Slider extends React.Component {
             form.appendChild(input1);
             form.appendChild(input2);
             form.style.display = 'flex';
-            //document.querySelector('.button').style.backgroundColor = 'gray'
+            
         }, 3000);
-        
-        //spacer.className = "spacer"
         
 	}
 	render() {
@@ -55,7 +52,7 @@ class Slider extends React.Component {
         return (
         	<section className = 'slider'>
         	  <div className="mySlides ">
-			      <img  src='slide1.jpg' alt="slide1" />
+			      <img  src='img/slide1.jpg' alt="slide1" />
 			      <div className = "container1">
 			           <article id="slider_content1">
 							<h3>Lorem ipsum dolor?</h3>
@@ -65,7 +62,7 @@ class Slider extends React.Component {
 			      </div>
 			  </div>
 			  <div className="mySlides ">
-			      <img  src="slide2.jpg" alt="slide2" />
+			      <img  src="img/slide2.jpg" alt="slide2" />
 			      <div className = "container2">
 				      <article id="slider_content2">
 						<h3>Nulla consequat</h3>
@@ -75,7 +72,7 @@ class Slider extends React.Component {
 				  </div>
 			  </div>
 			  <div className="mySlides "> 
-			      <img  src="slide3.jpg" alt="slide3" />
+			      <img  src="img/slide3.jpg" alt="slide3" />
 			      <div className = "container3">
 				      <article id="slider_content3">
 						<h3>Lorem ipsum</h3>
