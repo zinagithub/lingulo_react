@@ -1,14 +1,14 @@
 import React from 'react';
+import './fourCol.css';
 
 class FourCol extends React.Component {
 	render(){
 		return (
 			<section id="four_columns">
-				<h2>
-				Lorem ipsum</h2>
+				<h2>Lorem ipsum</h2>
 				<article className="img-item">
 					<figure>
-					<a href="img/example-slide-1.jpg" rel="lightbox" title="Some Title">
+					<a href="img/example-slide-1.jpg" title="Some Title">
 					<span className="thumb-screen"></span>
 					<img src="img/example-slide-1sml.jpg" alt="Some alt text"/></a>
 					<figcaption>
@@ -19,17 +19,17 @@ class FourCol extends React.Component {
 				</article>
 				<article className="img-item">
 				
-				<figure>
-				<a href="img/example-slide-2.jpg" rel="lightbox" title="Some Title">
-				<span className="thumb-screen"></span>
-				<img src="img/example-slide-2sml.jpg" alt="Some alt text"/></a>
-				<figcaption>
-				<strong>
-				Photo by: Some Name</strong>
-				warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen</figcaption></figure></article>
-				<article className="img-item">
-				
-				<figure>
+					<figure>
+					<a href="img/example-slide-2.jpg" rel="lightbox" title="Some Title">
+					<span className="thumb-screen"></span>
+					<img src="img/example-slide-2sml.jpg" alt="Some alt text"/></a>
+					<figcaption>
+					<strong>
+					Photo by: Some Name</strong>
+					warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen</figcaption></figure></article>
+					<article className="img-item">
+					
+					<figure>
 				<a href="img/example-slide-3.jpg" rel="lightbox" title="Some Title">
 				<span className="thumb-screen"></span>
 				<img src="img/example-slide-3sml.jpg" alt="Some alt text"/></a>
