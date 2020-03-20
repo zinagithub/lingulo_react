@@ -1,0 +1,14 @@
+#text_columns article.column1, #text_columns .column2
+{margin: 70px 0;
+font-size:14px;
+float:left;
+width:450px;}
+
+#text_columns .column2
+{margin: 120px 0;}
+
+.row
+{position:relative;
+margin: 40px 0 0 50px;
+float:right;
+width:350px;}

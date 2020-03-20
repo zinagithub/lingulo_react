@@ -4,6 +4,7 @@ import Header from './components/header';
 import Slider from './components/slider';
 import Articles3 from './components/articles3';
 import FourCol from './components/fourCol';
+import TwoCol from './components/twocol';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <Slider />
        <Articles3 />
        <FourCol />
+       <TwoCol />
     </div>
   );
 }
