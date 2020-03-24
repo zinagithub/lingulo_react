@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './navigation';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './header.css';
 
 const Header = function () {
@@ -9,7 +10,9 @@ const Header = function () {
          	<h1>Lingulo HTML5</h1>
          	<p>A responsive website tutorial</p>
          </div>
-         <Navigation />
+         <BrowserRouter>
+            <Navigation />
+         </BrowserRouter>
    	     
    	  </div>
    )

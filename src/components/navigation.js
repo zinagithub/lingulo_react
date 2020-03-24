@@ -1,7 +1,20 @@
 import React from 'react';
+import {Link, NavLink} from 'react-router-dom';
 import './navigation.css';
 
-class Navigation extends React.Component {
+const Navigation = () => {
+   return (
+      <nav>
+             <ul>
+                <Link to = "/Home"><li>Home</li></Link>
+                <Link to = "/"><li>Portfolio</li></Link>
+                <Link to = "/About"><li>About</li></Link>
+                <Link to = "/"><li>Contact</li></Link>
+             </ul>
+      </nav> 
+    );
+}
+/*class Navigation extends React.Component {
 	render() {
 		return (
 			<nav>
@@ -11,8 +24,8 @@ class Navigation extends React.Component {
    	            <li>About</li>
                 <li>Contact</li>
    	         </ul>
-   	        </nav> 
+   	  </nav> 
 			);
 	}
-}
+}*/
 export default Navigation;
